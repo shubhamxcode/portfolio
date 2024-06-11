@@ -1,0 +1,106 @@
+body{
+   background-color: black;
+}
+.name{
+    color: white;
+    /* font-family:'Baloo Bhai'; */
+    margin-left:10% ;
+}
+.name-2{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 250%;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    z-index:2;
+}
+
+.name-3{
+    color: white;
+    margin-left: 10%;
+    font-size: 150%;
+}
+.contactme a{
+    color:white;
+    margin-left:10%;
+    font-size: 200%;
+}
+.contactme {
+    margin-top:4%;
+}
+.links{
+    background-image: url('/WhatsApp\ Image\ 2024-06-11\ at\ 11.04.41.jpeg');
+    position: absolute;
+    width: 35%;
+    height: 90%;
+    margin-left: 50%;
+    z-index:-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    z-index:3;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right:20px;
+    margin:10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: -90%;
+}
+
+.hr{
+    margin-top:20%;
+    width:80%;
+    margin-left:10%;
+}
+.skill{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size:100%;
+}
+.skill-2{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size:100%;
+}
+.experience{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size:120%;
+    margin-top: -20px;
+}
+.experience-2{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size:120%;
+    margin-top:-20px ;
+}
+.project{
+    color: white;
+    margin-left:10%;
+    margin-top: 8%;
+    font-size: 50px;
+}
+.contactme-2{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.contactme-2 a{
+    color: white;
+    font-size:30px;
+    margin-top: -90px;
+    font-weight: bold;
+    margin-right: 10%;
+}
