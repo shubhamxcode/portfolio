@@ -31,7 +31,7 @@ body{
     margin-top:4%;
 }
 .links{
-    background-image: url('/WhatsApp\ Image\ 2024-06-11\ at\ 11.04.41.jpeg');
+    background-image: url('/myimage.jpeg');
     overflow: hidden;
     background-repeat: no-repeat;
     position: absolute;
@@ -112,4 +112,48 @@ body{
         display: flex;
         flex-direction: row;
     }
+}
+.boxparent-1{
+    display: flex;
+    justify-content: space-around;
+}
+.box-1{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
+}
+.box-2{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
+}
+.boxparent-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box-3{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
+}
+.box-4{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
+}
+.boxparent-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box-5{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
+}
+.box-6{
+    border: 2px solid white;
+    height: 20rem;
+    width: 30%;
 }
