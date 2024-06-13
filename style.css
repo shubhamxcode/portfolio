@@ -31,7 +31,7 @@ body{
     margin-top:4%;
 }
 .links{
-    background-image: url('/myimages.jpeg');
+    background-image: url('/image.jpeg');
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body{
     display: flex;
     position: relative;
     margin-right:2%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .boxchild-p{
     color: white;
@@ -148,7 +148,6 @@ body{
 .boxparent-2{
     display: flex;
     justify-content: space-around;
-    align-items:flex-start;
     color: white;
 }
 .box-3{
@@ -208,4 +207,61 @@ body{
     font-size:20px;
     margin-top: -30px;
 
+}
+#detail{
+    background-color: lightslategray;
+    overflow: hidden;
+}
+.developer label{
+    display: flex; 
+    margin: 30px;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.developer input{
+    font-size: 50px;
+    border: none;
+
+}
+
+.information{
+    margin-left: 20px;
+}
+.information a{
+    font-size:70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.information p{
+    font-size:20px;
+}
+.message{
+    display: flex;
+    justify-content: flex-end;
+}
+#message{
+    margin-right:10%;
+    height: 40px;
+    font-size:32px;
+}
+.sendmessage{
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+}
+.sendmessage button{
+    margin-left: 80%;
+}
+.hr-2{
+    margin-top:5%;
+    width:80%;
+    margin-left:10%;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+}
+.last a{
+    margin-top: 1.5%;
 }
