@@ -1,15 +1,10 @@
-const boxparent1=document.querySelector('.boxparent-1')
-document.querySelector()
-const boxparent2=document.querySelector('.boxparent-2')
-const boxparent3=document.querySelector('.boxparent-3')
+const detail=document.querySelector('#detail')
+const developer=document.querySelector('.developer')
+const send=document.querySelector('.send')
 
 
-let box=false
-boxparent1.addEventListener('click',function(one){
-    box=!box
-    if (box) {
-        
-    } else {
-        
-    }
+detail.addEventListener('click',function(){
+    document.querySelector('.send').addEventListener('click',function(){
+        console.log("hello");
+    })
 })

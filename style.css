@@ -4,19 +4,18 @@ body{
 }
 .name{
     color: white;
-    /* font-family:'Baloo Bhai'; */
+    font-family:'Baloo Bhai';
     margin-left:10% ;
 }
-.name-2{
+.name-2 {
     color: white;
+    font-size: 20px;
+    overflow: hidden;
     margin-left: 10%;
     margin-top: 5%;
-    font-size: 250%;
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
-    z-index:2;
 }
-
 .name-3{
     color: white;
     margin-left: 10%;
@@ -29,40 +28,6 @@ body{
 }
 .contactme {
     margin-top:4%;
-}
-.links{
-    background-image: url('/image.jpeg');
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 35%;
-    height: 90%;
-    margin-left: 50%;
-    z-index:-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.links a{
-    text-decoration: none;
-    z-index:3;
-    cursor: pointer;
-    font-weight: bold;
-    color: black;
-    background-color: white;
-    padding-left: 20px;
-    padding-right:20px;
-    margin:10%;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: -90%;
-}
-
-.hr{
-    margin-top:20%;
-    width:80%;
-    margin-left:10%;
 }
 .skill{
     color: white;
@@ -108,12 +73,6 @@ body{
     font-weight: bold;
     margin-right: 10%;
 }
-/* @media (min-width:10px) and (max-width:1000px){
-    .body{
-        display: flex;
-        flex-direction: row;
-    }
-} */
 .boxparent-1{
     display: flex;
     justify-content: space-around;
@@ -211,56 +170,25 @@ body{
     background-color: lightslategray;
     overflow: hidden;
 }
-.developer label{
-    display: flex; 
-    margin: 30px;
-    justify-content: flex-end;
-    margin-right: 10%;
-}
-.developer input{
-    font-size: 50px;
-    border: none;
-
-}
-
-.information{
-    margin-left: 20px;
-}
-.information a{
-    font-size:70px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.information p{
-    font-size:20px;
-}
-.message{
+form{
     display: flex;
     justify-content: flex-end;
+    height: 30px;
 }
-#message{
-    margin-right:10%;
-    height: 40px;
-    font-size:32px;
-}
-.sendmessage{
-    margin-top:3%;
-    display: flex;
-    justify-content: center;
-}
-.sendmessage button{
-    margin-left: 80%;
-}
-.hr-2{
-    margin-top:5%;
+.hr{
+    margin-top:2%;
     width:80%;
     margin-left:10%;
 }
-.last{
+.links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-.last a{
-    margin-top: 1.5%;
+.information a{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.information {
+    font-size: 30px;
 }
