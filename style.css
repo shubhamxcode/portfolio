@@ -1,28 +1,48 @@
 body{
    background-color: black;
    flex-direction: row;
+   margin: 0px 50px;
 }
-.name{
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+.statingname{
     color: white;
-    margin-left:10% ;
+}
+.icons img{
+    margin: 10px;
+}
+.img-1{
+ height: 70px;
+}
+.img-2{
+ height: 70px;
+}
+.img-3{
+ height: 70px;
 }
 .name-2 {
     color: white;
     font-size: 20px;
     overflow: hidden;
-    margin-left: 10%;
-    margin-top: 5%;
-    font-family: "Bebas Neue", sans-serif;
     font-style: normal;
+}
+.image img{
+    height:508px;
+    position: absolute;
+    margin-left:20% ;
+    margin-top: -5%;
+    z-index: -1;
 }
 .name-3{
     color: white;
-    margin-left: 10%;
     font-size: 150%;
 }
 .contactme a{
     color:white;
-    margin-left:10%;
     font-size: 200%;
 }
 .contactme {
@@ -31,33 +51,32 @@ body{
 .skill{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:100%;
 }
 .skill-2{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:100%;
 }
 .experience{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:120%;
-    margin-top: -20px;
+ 
 }
 .experience-2{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:120%;
-    margin-top:-20px ;
+   
 }
 .project{
     color: white;
-    margin-left:10%;
-    margin-top: 8%;
+   
     font-size: 50px;
 }
 .contactme-2{
@@ -68,13 +87,11 @@ body{
 .contactme-2 a{
     color: white;
     font-size:30px;
-    margin-top: -90px;
     font-weight: bold;
-    margin-right: 10%;
 }
 .boxparent-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
 }
 .box-1{
@@ -92,19 +109,19 @@ body{
     color: white;
     display: flex;
     position: relative;
-    margin-right:2%;
-    justify-content: space-around;
+ 
+    justify-content: space-between;
 }
 .boxchild-p{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:20px;
     margin-top: -30px;
 }
 .boxparent-2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
 }
 .box-3{
@@ -122,20 +139,20 @@ body{
     color: white;
     display: flex;
     position: relative;
-    margin-right:2%;
-    justify-content: space-around;
+  
+    justify-content: space-between;
 }
 .boxchild-2-p{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:20px;
-    margin-right: 7%;
+  
     margin-top: -30px;
 }
 .boxparent-3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:flex-start;
     color: white;
 }
@@ -154,50 +171,49 @@ body{
     color: white;
     display: flex;
     position: relative;
-    margin-right:2%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .boxchild-3-p{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:20px;
     margin-top: -30px;
-
 }
 #detail{
-    background-color: lightslategray;
-    overflow: hidden;
+    background-color:lightslategray;
 }
-form{
+form input{
+    border-radius:10px;
+    border: none;
+    text-align: center;
+    font-size:110%;
     display: flex;
-    justify-content: flex-end;
-    height: 30px;
+    padding: 20px;
+    margin: 30px;
 }
-::placeholder{
-    color:black;
+.information{
+    font-size: 30px;
     text-align: center;
 }
-.hr{
-    margin-top:2%;
-    width:80%;
-    margin-left:10%;
-}
-.links{
-    display: flex;
-    justify-content: space-around;
-}
-.links a{
-    font-size:2rem;
-    color: black;
-    text-decoration: none;
-}
 .information a{
-    color: white;
-    font-weight: bold;
-    font-size:40px;
+    color:black;
+    font-size:50px;
 }
-.information {
-    font-size: 30px;
-    margin-left:10%;
+.shubham{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.developer button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 35%;
+}
+@media screen and (max-width : 480px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
 }
