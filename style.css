@@ -183,12 +183,17 @@ form{
 .links{
     display: flex;
     justify-content: space-around;
+    font-size: 20px;
+}
+.links a{
+    font-size:2rem;
 }
 .information a{
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size:40px;
 }
 .information {
     font-size: 30px;
+    margin-left:10%;
 }
