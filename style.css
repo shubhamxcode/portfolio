@@ -186,10 +186,11 @@ form{
 .links{
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
 }
 .links a{
     font-size:2rem;
+    color: black;
+    text-decoration: none;
 }
 .information a{
     color: white;
