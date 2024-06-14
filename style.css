@@ -175,6 +175,10 @@ form{
     justify-content: flex-end;
     height: 30px;
 }
+::placeholder{
+    color:black;
+    text-align: center;
+}
 .hr{
     margin-top:2%;
     width:80%;
