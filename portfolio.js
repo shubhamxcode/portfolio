@@ -4,17 +4,24 @@ const form=document.querySelector('form')
 form.addEventListener('submit',function(event){
     event.preventDefault()
     const data=new FormData(form)
-            fetch('https://randomuser.me/api/',{
-            method:'post',
-            headers:{
-                'content-Type':'appication/json'
-            },
-            body:JSON.stringify(data)
-        }).then((resolve)=>{
+    let obj={}
+    data.forEach((value,key)=>{
+        obj[key]=value;
+    })
+    fetch('https://randomuser.me/api/',{
+        method:'post',
+        headers:{
+            'Content-Type':'application/json'
+        },
+        body:JSON.stringify(obj)
+        })
+        .then((resolve)=>{
             resolve.json()
-        }).then((event)=>{
+        })
+        .then((event)=>{
             console.log('hello world');
-        }).catch((error)=>{
+        })
+        .catch((error)=>{
             console.log(error);
         })
 })
