@@ -1,5 +1,5 @@
+const form=document.querySelector('#form')
 
-const form=document.querySelector('form')
 
 form.addEventListener('submit',function(event){
     event.preventDefault()
@@ -25,3 +25,4 @@ form.addEventListener('submit',function(event){
             console.log(error);
         })
 })
+

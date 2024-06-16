@@ -1,219 +1,294 @@
-body{
-   background-color: black;
-   flex-direction: row;
-   margin: 0px 50px;
+body {
+    background-color: black;
+    padding: 0 10%;
+    margin: 0;
 }
-.navbar{
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 6px;
 }
-.statingname{
+
+.my_image img {
+    max-width: 100%;
+    max-height:40em;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.left_para {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.name-1{
     color: white;
 }
-.icons img{
-    margin: 10px;
+
+.icons a img{
+    height:4rem;
 }
-.img-1{
- height: 70px;
+
+.greet {
+    font-size: 4em;
 }
-.img-2{
- height: 70px;
-}
-.img-3{
- height: 70px;
-}
+
 .name-2 {
     color: white;
-    font-size: 20px;
-    overflow: hidden;
-    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    flex-wrap: nowrap;
+    flex: 1;
+    min-width: 300px;
 }
-.image img{
-    height:508px;
-    position: absolute;
-    margin-left:20% ;
-    margin-top: -5%;
-    z-index: -1;
-}
-.name-3{
+
+.name-3 {
     color: white;
-    font-size: 150%;
+    font-size: 1.5em;
 }
-.contactme a{
-    color:white;
-    font-size: 200%;
+
+.contactme a {
+    color: white;
+    font-size: 2em;
 }
+
 .contactme {
-    margin-top:4%;
+    margin-top: 4%;
 }
-.skill{
+
+.skill,
+.skill-2 {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size:100%;
+    font-size: 1em;
+    flex-wrap: wrap;
 }
-.skill-2{
+
+.experience,
+.experience-2 {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size:100%;
+    font-size: 1.2em;
+    flex-wrap: wrap;
 }
-.experience{
+
+.project {
     color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size:120%;
- 
+    font-size: 2em;
 }
-.experience-2{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size:120%;
-   
-}
-.project{
-    color: white;
-   
-    font-size: 50px;
-}
-.contactme-2{
+
+.contactme-2 {
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
 }
-.contactme-2 a{
+
+.contactme-2 a {
     color: white;
-    font-size:30px;
+    font-size: 1.5em;
     font-weight: bold;
 }
-.boxparent-1{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-.box-1{
-    border: 2px solid white;
-    height: 20rem;
-    width: 30%;
 
-}
-.box-2{
-    border: 2px solid white;
-    height: 20rem;
-    width: 30%;
-}
-.boxchild-h1{
-    color: white;
-    display: flex;
-    position: relative;
- 
-    justify-content: space-between;
-}
-.boxchild-p{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size:20px;
-    margin-top: -30px;
-}
-.boxparent-2{
+.boxparent-1,
+.boxparent-2,
+.boxparent-3 {
     display: flex;
     justify-content: space-between;
     color: white;
+    flex-wrap: wrap;
 }
-.box-3{
-    border: 2px solid white;
-    height: 20rem;
-    width: 30%;
 
-}
-.box-4{
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
     border: 2px solid white;
-    height: 20rem;
-    width: 30%;
+    height: auto;
+    width: 48%;
+    margin-top: 1em;
 }
-.boxchild-2-h1{
-    color: white;
-    display: flex;
-    position: relative;
-  
-    justify-content: space-between;
-}
-.boxchild-2-p{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size:20px;
-  
-    margin-top: -30px;
-}
-.boxparent-3{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    color: white;
-}
-.box-5{
-    border: 2px solid white;
-    height: 20rem;
-    width: 30%;
 
-}
-.box-6{
-    border: 2px solid white;
-    height: 20rem;
-    width: 30%;
-}
-.boxchild-3-h1{
-    color: white;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-.boxchild-3-p{
+.boxchild-h1,
+.boxchild-2-h1,
+.boxchild-3-h1 {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size:20px;
-    margin-top: -30px;
+    width: 100%;
+    margin-top: 1em;
 }
-#detail{
-    background-color:lightslategray;
+
+.boxchild-p,
+.boxchild-2-p,
+.boxchild-3-p {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    margin-top: -1em;
+}
+
+#detail {
+    background-color: lightslategray;
+    overflow: hidden;
+    padding:2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 form input{
-    border-radius:10px;
+    padding:10px 90px;
+    margin: 10px;
+    background-color:lightgrey;
     border: none;
-    text-align: center;
-    font-size:110%;
-    display: flex;
-    padding: 20px;
-    margin: 30px;
+    border-radius: 20px;
 }
-.information{
-    font-size: 30px;
-    text-align: center;
-}
-.information a{
-    color:black;
-    font-size:50px;
-}
-.shubham{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.developer button{
-    padding: 10px;
+form button{
     border-radius: 20px;
     border: none;
-    margin-left: 35%;
+    background-color: lightgray;
+    padding: 5px 10px;
 }
-@media screen and (max-width : 480px){
-    .navbar{
+
+::placeholder {
+    color: black;
+    text-align: center;
+}
+
+.hr {
+    margin-top: 2%;
+    width:100%;
+}
+.information a {
+    color: black;
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 1.5em;.links {
         display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.information {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 0 5%;
+    }
+
+    .greet {
+        font-size: 2.5em;
+    }
+
+    .contactme-2 a {
+        font-size: 1.2em;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .greet {
+        font-size: 1.5em;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        width: 100%;
+    }
+
+    .boxchild-h1,
+    .boxchild-2-h1,
+    .boxchild-3-h1,
+    .boxchild-p,
+    .boxchild-2-p,
+    .boxchild-3-p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill,
+    .skill-2,
+    .experience,
+    .experience-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 2%;
+    }
+
+    .greet {
+        font-size:1.5em;
+    }
+
+    .name-2,
+    .name-3,
+    .contactme a,
+    .project,
+    .contactme-2 a {
+        font-size: 1em;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        width: 100%;
+    }
+
+    .skill,
+    .skill-2,
+    .experience,
+    .experience-2 {
+        font-size: 0.8em;
+    }
+
+    .links a {
+        font-size: 1.2rem;
     }
 }
